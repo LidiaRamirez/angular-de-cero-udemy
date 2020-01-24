@@ -101,6 +101,18 @@ o
 ng g c components/footer
 ~~~
 
+## Para desplegar en producción 
+~~~
+ng build --prod
+~~~
+Modificar si es necesario el archivo environment.prod la variable a true
+
+~~~
+export const environment = {
+  production: true
+};
+~~~
+
 ## Instalar Ionic
 ~~~
 npm install -g ionic
